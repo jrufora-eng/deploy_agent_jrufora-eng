@@ -132,11 +132,13 @@ deploy_application() {
         echo -n "Enter failure threshold percentage (default 50): "
         read -r fail_val
 
-        if [ -n "$warn_val" ] && [ -n "$fail_val" ]; then
-            sed -i "s/\"warning\": [0-9]*/\"warning\": $warn_val/" "$TARGET_DIR/Helpers/config.json"
-            sed -i "s/\"failure\": [0-9]*/\"failure\": $fail_val/" "$TARGET_DIR/Helpers/config.json"
-            echo "[✓] Config thresholds updated."
-        fi
+      [[ "$warn_val" =~ ^[0-9]+$ ]] || warn_val=75
+        [[ "$fail_val" =~ ^[0-9]+$ ]] || fail_val=50
+
+        sed -i "s/\"warning\": [0-9]*/\"warning\": $warn_val/" "$TARGET_DIR/Helpers/config.json"
+        sed -i "s/\"failure\": [0-9]*/\"failure\": $fail_val/" "$TARGET_DIR/Helpers/config.json"
+        echo "[✓] Config thresholds updated."
+       
     fi
 
     CURRENT_TARGET_DIR=""
