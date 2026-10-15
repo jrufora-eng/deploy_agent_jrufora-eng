@@ -1,0 +1,22 @@
+=== Session recorded 2026-10-08 06:20:09.984255 | total_sessions=5 | mode=live ===
+[2026-10-08] Bob Smith <bob@example.com> - absent (now 20.0% attendance) | URGENT: below the failure threshold - will fail this class
+=== Session recorded 2026-10-08 06:21:02.169077 | total_sessions=5 | mode=live ===
+[2026-10-08] Bob Smith <bob@example.com> - absent (now 20.0% attendance) | URGENT: below the failure threshold - will fail this class
+=== Session recorded on 2026-10-15 08:58:26 ===
+=== Session recorded on 2026-10-15 09:02:49 ===
+=== Session recorded on 2026-10-15 09:05:09 ===
+[2026-10-15] alice@example.com <Alice Johnson> - absent
+[2026-10-15] bob@example.com <Bob Smith> - absent
+=== Session recorded 2026-10-15 09:08:35,439 | total_sessions=5 | mode=live ===
+[2026-10-15] alice@example.com <Alice Johnson> - absent (now 120.0% attendance)
+[2026-10-15] bob@example.com <Bob Smith> - absent (now 20.0% attendance) | URGENT: below the failure threshold - will fail this class
+=== Session recorded 2026-10-15 09:18:46,041 | total_sessions=5 | mode=live ===
+[2026-10-15] alice@example.com <Alice Johnson> - absent (now 120.0% attendance)
+=== Session recorded 2026-10-15 09:21:24,239 | total_sessions=5 | mode=live ===
+[2026-10-15] Alice Johnson <alice@example.com> - absent (now 120.0% attendance)
+=== Session recorded 2026-10-15 09:22:42,440 | total_sessions=5 | mode=live ===
+[2026-10-15] alice@example.com <Alice Johnson> - absent (now 120.0% attendance)
+[2026-10-15] bob@example.com <Bob Smith> - absent (now 20.0% attendance) | URGENT: below the failure threshold - will fail this class
+=== Session recorded 2026-10-15 09:41:35.552037 | total_sessions=5 | mode=live ===
+[2026-10-15] Alice Johnson <alice@example.com> - absent (now 120.0% attendance)
+[2026-10-15] Bob Smith <bob@example.com> - absent (now 20.0% attendance) | URGENT: below the failure threshold - will fail this class

@@ -1,0 +1,1 @@
+{"total_sessions": 5, "run_mode": "dry_run", "thresholds": {"warning": 40, "failure": 80}}
